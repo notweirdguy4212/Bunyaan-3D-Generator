@@ -1,0 +1,14 @@
+{
+  "model_name": "Bunyaan Hierarchical Implicit 3D",
+  "version": "1.5.0-dev",
+  "architecture": "native-coarse-volume-feature-encoder-plus-implicit-sdf-pbr-decoder",
+  "conditioning": ["native-byte-text-tokens", "native-rgb-image-set", "calibrated-3x4-camera-matrices"],
+  "geometry_representation": "continuous-signed-distance-field",
+  "field_outputs": ["sdf", "normal_xyz", "linear_base_color_rgb", "roughness", "metallic", "opacity"],
+  "query_mode": "arbitrary-coordinate-chunked",
+  "training": ["asset-level-validation-split", "ema-checkpoints", "sdf-loss", "normal-loss", "pbr-loss", "optional-eikonal-loss"],
+  "pretrained": false,
+  "large_scale_training_complete": false,
+  "competitive_benchmark_complete": false,
+  "third_party_inference_engines": []
+}

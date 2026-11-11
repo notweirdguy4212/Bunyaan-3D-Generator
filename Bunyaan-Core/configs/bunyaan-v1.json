@@ -1,0 +1,14 @@
+{
+  "model_name": "Bunyaan Native 3D",
+  "version": "1.0.0-dev",
+  "architecture": "conditional-3d-unet-latent-diffusion",
+  "resolution": 32,
+  "width": 64,
+  "cond_dim": 256,
+  "text_layers": 4,
+  "diffusion_steps": 1000,
+  "conditioning": ["native-byte-text", "native-rgb-image"],
+  "output_representation": "continuous-occupancy-volume",
+  "pretrained": false,
+  "third_party_inference_engines": []
+}

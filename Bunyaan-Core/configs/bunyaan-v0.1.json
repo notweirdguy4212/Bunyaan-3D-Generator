@@ -1,0 +1,24 @@
+{
+  "model_name": "Bunyaan Native 3D Foundation Model",
+  "version": "0.1.0-dev",
+  "architecture": "conditioned-latent-transformer-3d",
+  "latent_dim": 512,
+  "condition_dim": 1024,
+  "depth": 12,
+  "heads": 8,
+  "point_count": 4096,
+  "material_dim": 8,
+  "diffusion_steps": 1000,
+  "modalities": [
+    "text",
+    "single-image",
+    "multi-view"
+  ],
+  "outputs": [
+    "point-samples",
+    "occupancy",
+    "material-features"
+  ],
+  "checkpoint": null,
+  "status": "architecture-scaffold-not-trained"
+}

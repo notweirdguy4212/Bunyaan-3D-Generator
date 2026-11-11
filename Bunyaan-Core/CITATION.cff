@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "Bunyaan: Independent Generative 3D and PBR Model"
+type: software
+authors:
+  - name: "Bunyaan contributors"
+version: "1.3.0"date-released: 2026-11-11
+license: Apache-2.0

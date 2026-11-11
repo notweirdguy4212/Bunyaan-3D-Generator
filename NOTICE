@@ -1,0 +1,11 @@
+Bunyaan
+Copyright 2026 Bunyaan contributors.
+
+This distribution contains Bunyaan-authored software and documentation licensed
+under the Apache License, Version 2.0. Third-party Python dependencies are
+separately licensed by their respective authors. No third-party generative
+model source repositories or pretrained model weights are bundled.
+
+Bunyaan is an independent project name. This notice does not grant rights to
+third-party datasets, source assets, trademarks, or model weights not included
+in this distribution.

@@ -1,0 +1,16 @@
+{
+  "model_name": "Bunyaan Native Generative 3D",
+  "version": "1.4.0-dev",
+  "architecture": "native-conditional-multiscale-3d-unet-cross-attention",
+  "material_architecture": "native-conditional-2d-unet-cross-attention",
+  "shape_resolution_default": 32,
+  "shape_width": 64,
+  "material_width": 64,
+  "conditioning": ["native-byte-text-tokens", "native-rgb-image"],
+  "shape_output": "dense-occupancy-volume",
+  "material_output_channels": ["base_color_r", "base_color_g", "base_color_b", "roughness", "metallic"],
+  "training_features": ["asset-level-validation-split", "mixed-precision", "ema", "best-checkpoint", "resume"],
+  "shape_samplers": ["ddim", "ddpm"],
+  "pretrained": false,
+  "third_party_inference_engines": []
+}
